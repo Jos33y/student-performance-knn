@@ -1,16 +1,10 @@
 # Student Performance Prediction #
 
-## Preface ##
-
-Having spent the past few months studying quite a bit about machine learning and statistical inference, I wanted a more serious and challenging task than simply working and re-working the examples that many books and blogs make use of. After all, there's only so many times you can look at the Iris dataset and be surprised. I wanted to work on something that was completely new to me in terms of the data, to see if I could start with the unknown and chart my way out with success.
-
-**Dataset:** [Student Performance Dataset](https://archive.ics.uci.edu/ml/datasets/Student+Performance)
-
 **Accompanying Paper:** [Using Data Mining to Predict Secondary School Student Performance](http://www3.dsi.uminho.pt/pcortez/student.pdf)
 
 ## Objective ##
 
-My objective was to build a model that would predict whether or not a student would fail the math course that was being tracked. I focused on failure rates as I believed that metric to be more valuable in terms of flagging struggling students who may need more help.
+The objective was to build a model that would predict whether or not a student would fail the math course that was being tracked. I focused on failure rates as I believed that metric to be more valuable in terms of flagging struggling students who may need more help.
 
 To be able to preemptively assess which students may need the most attention is, in my opinion, an important step to personalized education.
 
@@ -38,8 +32,6 @@ The following results have been averaged over 5 trials.
 | My Model Accuracy   	|  0.9165 	|      0.8285 	|            0.6847 	|
 | False Pass Rate     	|   0.096 	|        0.12 	|             0.544 	|
 | False Fail Rate     	|   0.074 	|      0.1481 	|            0.2185 	|
-
-[Why these metrics?](https://github.com/sachanganesh/student-performance-prediction/issues/1#issuecomment-508577754)
 
 ## Discussion ##
 
